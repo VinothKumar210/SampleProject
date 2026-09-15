@@ -113,3 +113,42 @@ This assignment covers fundamental Git operations including initialization, stag
 ![Phase 9 Screenshot](./Screenshot/img25.png)
 ![Phase 9 Screenshot](./Screenshot/img26.png)
 ![Phase 9 Screenshot](./Screenshot/img27.png)
+
+## Git Assignment - Phase 2
+
+### Task 1: Practice git revert
+**Description:** This task involves creating commits, specifically reverting a middle commit without losing subsequent changes, and explaining why evert is a safer alternative to eset.
+
+1. **Create Commits:** Added three new lines to 
+otes.txt in three separate commits.
+2. **Revert Middle Commit:** Used git revert <hash> --no-edit to reverse the changes introduced by the second commit.
+3. **Resolve Conflict:** Resolved the merge conflict and completed the revert commit.
+
+**Why \git revert\ is safer than \git reset\:**
+\git reset\ rewrites history by deleting commits entirely, which can cause severe synchronization issues in a shared repository if others have already pulled the commits. \git revert\ is safer because it creates a *new* commit that undoes the changes, safely preserving the original commit history and ensuring smooth collaboration!
+
+![Phase 2 Task 1 Screenshot](./Screenshot/img28.png)
+![Phase 2 Task 1 Screenshot](./Screenshot/img29.png)
+
+### Task 2: Practice git reflog
+**Description:** This task demonstrates how to recover lost commits using git reflog after performing a history-changing operation like a hard reset.
+
+1. **History Deletion:** Used git reset --hard HEAD~2 to delete the most recent commits.
+2. **Locate Lost Commits:** Used git reflog to view the local history of HEAD movements and find the commit hash from before the reset.
+3. **Recover State:** Used git reset --hard <hash> to restore the repository to its exact previous state.
+
+**Difference between \git log\ and \git reflog\:**
+- **\git log\** shows the public, linear commit history of the current branch. If you reset or delete a commit, it disappears from git log.
+- **\git reflog\** (Reference logs) is a local, chronological diary of everywhere your HEAD pointer has been (commits, resets, checkouts). It allows you to find and recover commits that are no longer visible in git log.
+
+![Phase 2 Task 2 Screenshot](./Screenshot/img30.png)
+
+### Task 3: Interactive Rebase (Squash)
+**Description:** This task involves cleaning up a messy commit history by combining (squashing) multiple smaller commits into one cohesive commit before merging.
+
+1. **Create Branch & Commits:** Created a branch ebase-demo and added multiple small, incremental commits.
+2. **Interactive Rebase:** Used git rebase -i HEAD~3 to open the interactive rebase editor.
+3. **Squash Commits:** Changed the command from pick to squash for the subsequent commits, folding them into the first commit.
+4. **Compare History:** Verified with git log --oneline that the multiple separate commits were successfully combined into a single, clean commit.
+
+![Phase 2 Task 3 Screenshot](./Screenshot/img31.png)
