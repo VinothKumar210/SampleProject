@@ -13,7 +13,7 @@ This assignment covers fundamental Git operations including initialization, stag
     *   `main.cpp`: A basic C++ source file.
 4.  **Repository Initialization**: Execute `git init` to initialize a new Git repository in the current directory.
 
-![Phase 1 Screenshot](./Screenshot/img1.jpg)
+![Phase 1 Screenshot](./Screenshot/img1.png)
 
 ### Phase 2: Basic Git Operations
 **Description:** This phase involves checking the repository status, adding a `.gitignore` file, staging project files, committing them, and viewing the commit history.
@@ -24,7 +24,7 @@ This assignment covers fundamental Git operations including initialization, stag
 4.  **Commit**: Committed the staged files using `git commit -m "Initial commit with project files"`.
 5.  **View History**: Verified the commit was successfully recorded using `git log`.
 
-![Phase 2 Screenshot](./Screenshot/img2.jpg)
+![Phase 2 Screenshot](./Screenshot/img2.png)
 
 ### Phase 3: Branching Basics
 **Description:** This phase involves creating multiple branches, switching between them, and making independent changes to build out the calculator features.
@@ -33,8 +33,6 @@ This assignment covers fundamental Git operations including initialization, stag
 2.  **Feature 2 (Subtraction)**: Switched back to `main`, created branch `feature-2`, implemented the subtraction function, and committed the change.
 3.  **Feature 3 (Multiplication)**: Switched back to `main`, created branch `feature-3`, implemented the multiplication function, and committed the change.
 
-![Phase 3 Screenshot](./Screenshot/img3.jpg)
-=======
 ![Phase 3 Screenshot](./Screenshot/img3.jpg)
 ### Phase 4: Merging and Conflict Resolution
 **Description:** This phase involves merging branches into the main branch and resolving the resulting merge conflicts that arise when the same lines of code are modified in different branches.
@@ -45,10 +43,10 @@ This assignment covers fundamental Git operations including initialization, stag
 4.  **Complete Merge**: Staged the resolved file (git add main.cpp) and committed it to finalize the merge.
 5.  **Merge Final Branch**: Merged eature-3 and resolved its conflict similarly.
 
-![Phase 4 Screenshot](./Screenshot/img4.jpg)
-![Phase 4 Screenshot](./Screenshot/img5.jpg)
-![Phase 4 Screenshot](./Screenshot/img6.jpg)
-![Phase 4 Screenshot](./Screenshot/img7.jpg)
+![Phase 4 Screenshot](./Screenshot/img4.png)
+![Phase 4 Screenshot](./Screenshot/img5.png)
+![Phase 4 Screenshot](./Screenshot/img6.png)
+![Phase 4 Screenshot](./Screenshot/img7.png)
 
 ### Phase 5: Git Stash
 **Description:** This phase involves using Git's stash feature to temporarily set aside uncommitted changes, allowing you to switch branches or perform other tasks without losing your work.
@@ -57,8 +55,8 @@ This assignment covers fundamental Git operations including initialization, stag
 2. **Switch Branches**: Switched to a new branch (urgent-bug-fix) and back to main to simulate an interruption.
 3. **Pop Stash**: Returned to the original work and restored the temporary modifications using git stash pop.
 
-![Phase 5 Screenshot](./Screenshot/img8.jpg)
-![Phase 5 Screenshot](./Screenshot/img9.jpg)
+![Phase 5 Screenshot](./Screenshot/img8.png)
+![Phase 5 Screenshot](./Screenshot/img9.png)
 
 ### Phase 6: GitHub Integration
 **Description:** This phase involves connecting the local Git repository to a remote repository on GitHub to enable backup, collaboration, and remote tracking.
@@ -68,8 +66,8 @@ This assignment covers fundamental Git operations including initialization, stag
 3.  **Push to GitHub**: Pushed the local main branch to the remote repository using git push -u origin main.
 4.  **Clone and Pull**: Cloned the remote repository to a new directory and pulled the latest changes to verify the connection.
 
-![Phase 6 Screenshot](./Screenshot/img10.jpg)
-![Phase 6 Screenshot](./Screenshot/img11.jpg)
+![Phase 6 Screenshot](./Screenshot/img10.png)
+![Phase 6 Screenshot](./Screenshot/img11.png)
 
 ### Phase 7: GitHub Issues & Pull Requests
 **Description:** This phase involves using GitHub's collaboration tools to track tasks and propose code changes.
@@ -79,9 +77,9 @@ This assignment covers fundamental Git operations including initialization, stag
 3.  **Push Branch**: Pushed the divide-feature branch to GitHub (git push -u origin divide-feature).
 4.  **Pull Request**: Opened a Pull Request on GitHub to merge divide-feature into main and merged it.
 
-![Phase 7 Screenshot](./Screenshot/img12.jpg)
-![Phase 7 Screenshot](./Screenshot/img13.jpg)
-![Phase 7 Screenshot](./Screenshot/img14.jpg)
+![Phase 7 Screenshot](./Screenshot/img12.png)
+![Phase 7 Screenshot](./Screenshot/img13.png)
+![Phase 7 Screenshot](./Screenshot/img14.png)
 
 ### Phase 8: History and Undo Commands
 **Description:** This phase involves using Git's powerful history and undo tools to inspect the commit log, fix mistakes, and safely reverse changes.
@@ -92,11 +90,11 @@ This assignment covers fundamental Git operations including initialization, stag
 4.  **Revert**: Used git revert HEAD --no-edit to safely undo a commit by creating a new reversal commit (safe for shared repos).
 5.  **Reset**: Used git reset --soft HEAD~1 to un-commit while keeping changes staged in the working directory.
 
-![Phase 8 Screenshot](./Screenshot/img15.jpg)
-![Phase 8 Screenshot](./Screenshot/img16.jpg)
-![Phase 8 Screenshot](./Screenshot/img17.jpg)
-![Phase 8 Screenshot](./Screenshot/img18.jpg)
-![Phase 8 Screenshot](./Screenshot/img19.jpg)
+![Phase 8 Screenshot](./Screenshot/img15.png)
+![Phase 8 Screenshot](./Screenshot/img16.png)
+![Phase 8 Screenshot](./Screenshot/img17.png)
+![Phase 8 Screenshot](./Screenshot/img18.png)
+![Phase 8 Screenshot](./Screenshot/img19.png)
 
 ### Phase 9: Advanced Git Commands
 **Description:** This phase involves using powerful Git commands for history rewriting, code inspection, branch management, and version tagging.
@@ -108,10 +106,74 @@ This assignment covers fundamental Git operations including initialization, stag
 5.  **Cherry-pick**: Used git cherry-pick <commit-hash> to apply a specific commit from another branch onto the current branch.
 6.  **Git Tag**: Created a version tag 1.0 using git tag v1.0 -m "Version 1.0 - Simple Calculator" to mark a stable release point.
 
-![Phase 9 Screenshot](./Screenshot/img20.jpg)
-![Phase 9 Screenshot](./Screenshot/img21.jpg)
-![Phase 9 Screenshot](./Screenshot/img22.jpg)
-![Phase 9 Screenshot](./Screenshot/img23.jpg)
-![Phase 9 Screenshot](./Screenshot/img25.jpg)
-![Phase 9 Screenshot](./Screenshot/img26.jpg)
-![Phase 9 Screenshot](./Screenshot/img27.jpg)
+![Phase 9 Screenshot](./Screenshot/img20.png)
+![Phase 9 Screenshot](./Screenshot/img21.png)
+![Phase 9 Screenshot](./Screenshot/img22.png)
+![Phase 9 Screenshot](./Screenshot/img23.png)
+![Phase 9 Screenshot](./Screenshot/img25.png)
+![Phase 9 Screenshot](./Screenshot/img26.png)
+![Phase 9 Screenshot](./Screenshot/img27.png)
+
+## Git Assignment - Phase 2
+
+### Task 1: Practice git revert
+**Description:** This task involves creating commits, specifically reverting a middle commit without losing subsequent changes, and explaining why 
+evert is a safer alternative to 
+eset.
+
+1. **Create Commits:** Added three new lines to 
+otes.txt in three separate commits.
+2. **Revert Middle Commit:** Used git revert <hash> --no-edit to reverse the changes introduced by the second commit.
+3. **Resolve Conflict:** Resolved the merge conflict and completed the revert commit.
+
+**Why \git revert\ is safer than \git reset\:**
+\git reset\ rewrites history by deleting commits entirely, which can cause severe synchronization issues in a shared repository if others have already pulled the commits. \git revert\ is safer because it creates a *new* commit that undoes the changes, safely preserving the original commit history and ensuring smooth collaboration!
+
+![Phase 2 Task 1 Screenshot](./Screenshot/img28.png)
+![Phase 2 Task 1 Screenshot](./Screenshot/img29.png)
+
+### Task 2: Practice git reflog
+**Description:** This task demonstrates how to recover lost commits using git reflog after performing a history-changing operation like a hard reset.
+
+1. **History Deletion:** Used git reset --hard HEAD~2 to delete the most recent commits.
+2. **Locate Lost Commits:** Used git reflog to view the local history of HEAD movements and find the commit hash from before the reset.
+3. **Recover State:** Used git reset --hard <hash> to restore the repository to its exact previous state.
+
+**Difference between \git log\ and \git reflog\:**
+- **\git log\** shows the public, linear commit history of the current branch. If you reset or delete a commit, it disappears from git log.
+- **\git reflog\** (Reference logs) is a local, chronological diary of everywhere your HEAD pointer has been (commits, resets, checkouts). It allows you to find and recover commits that are no longer visible in git log.
+
+![Phase 2 Task 2 Screenshot](./Screenshot/img30.png)
+
+### Task 3: Interactive Rebase (Squash)
+**Description:** This task involves cleaning up a messy commit history by combining (squashing) multiple smaller commits into one cohesive commit before merging.
+
+1. **Create Branch & Commits:** Created a branch 
+ebase-demo and added multiple small, incremental commits.
+2. **Interactive Rebase:** Used git rebase -i HEAD~3 to open the interactive rebase editor.
+3. **Squash Commits:** Changed the command from pick to squash for the subsequent commits, folding them into the first commit.
+4. **Compare History:** Verified with git log --oneline that the multiple separate commits were successfully combined into a single, clean commit.
+
+![Phase 2 Task 3 Screenshot](./Screenshot/img31.png)
+
+### Task 4: Practice git cherry-pick
+**Description:** This task involves selectively picking a specific commit from one branch and applying it to another branch.
+
+1. **Create Feature Branches:** Created eature-a and added two commits to it.
+2. **Identify Commit Hash:** Used git log --oneline to find the exact commit hash of the first commit.
+3. **Cherry-Pick to New Branch:** Created eature-b from main and ran git cherry-pick <hash> to bring only that specific commit over.
+
+**Why use \cherry-pick\ instead of \merge\?**
+When you use \git merge\, it merges *all* the commits from one branch into another. If a branch has multiple commits but you only want a specific hotfix or a single working feature from it (and not the rest of the incomplete code), \cherry-pick\ allows you to selectively grab just that one commit!
+
+![Phase 2 Task 4 Screenshot](./Screenshot/img32.png)
+
+### Task 5: Repository Cleanup
+**Description:** This task involves removing unused experimental branches to keep the repository clean, creating a release tag, and syncing the final polished state to the remote repository.
+
+1. **Delete Branches:** Used git branch -D rebase-demo feature-a feature-b to delete the temporary branches created during Phase 2.
+2. **Release Tagging:** Created a new tag 2.0 using git tag v2.0 -m "Version 2.0 - Git Assignment Phase 2" to mark the completion of the advanced operations phase.
+3. **Push to Remote:** Pushed the clean main branch and the new tags to GitHub using git push origin main --tags.
+
+![Phase 2 Task 5 Screenshot](./Screenshot/img33.png)
+![Phase 2 Task 5 Screenshot](./Screenshot/img34.png)
