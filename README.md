@@ -14,3 +14,14 @@ This assignment covers fundamental Git operations including initialization, stag
 4.  **Repository Initialization**: Execute `git init` to initialize a new Git repository in the current directory.
 
 ![Phase 1 Screenshot](./Screenshot/img1.jpg)
+
+### Phase 2: Basic Git Operations
+**Description:** This phase involves checking the repository status, adding a `.gitignore` file, staging project files, committing them, and viewing the commit history.
+
+1.  **Check Status**: Used `git status` to see the untracked files.
+2.  **Add .gitignore**: Created a `.gitignore` file to ignore compiled object files and OS generated files.
+3.  **Stage Files**: Staged all untracked files using `git add .`.
+4.  **Commit**: Committed the staged files using `git commit -m "Initial commit with project files"`.
+5.  **View History**: Verified the commit was successfully recorded using `git log`.
+
+![Phase 2 Screenshot](./Screenshot/img2.jpg)
