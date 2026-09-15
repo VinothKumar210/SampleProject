@@ -117,7 +117,9 @@ This assignment covers fundamental Git operations including initialization, stag
 ## Git Assignment - Phase 2
 
 ### Task 1: Practice git revert
-**Description:** This task involves creating commits, specifically reverting a middle commit without losing subsequent changes, and explaining why evert is a safer alternative to eset.
+**Description:** This task involves creating commits, specifically reverting a middle commit without losing subsequent changes, and explaining why 
+evert is a safer alternative to 
+eset.
 
 1. **Create Commits:** Added three new lines to 
 otes.txt in three separate commits.
@@ -146,7 +148,8 @@ otes.txt in three separate commits.
 ### Task 3: Interactive Rebase (Squash)
 **Description:** This task involves cleaning up a messy commit history by combining (squashing) multiple smaller commits into one cohesive commit before merging.
 
-1. **Create Branch & Commits:** Created a branch ebase-demo and added multiple small, incremental commits.
+1. **Create Branch & Commits:** Created a branch 
+ebase-demo and added multiple small, incremental commits.
 2. **Interactive Rebase:** Used git rebase -i HEAD~3 to open the interactive rebase editor.
 3. **Squash Commits:** Changed the command from pick to squash for the subsequent commits, folding them into the first commit.
 4. **Compare History:** Verified with git log --oneline that the multiple separate commits were successfully combined into a single, clean commit.
