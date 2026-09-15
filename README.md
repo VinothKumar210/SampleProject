@@ -107,3 +107,9 @@ This assignment covers fundamental Git operations including initialization, stag
 6.  **Git Tag**: Created a version tag 1.0 using git tag v1.0 -m "Version 1.0 - Simple Calculator" to mark a stable release point.
 
 ![Phase 9 Screenshot](./Screenshot/img20.jpg)
+![Phase 9 Screenshot](./Screenshot/img21.jpg)
+![Phase 9 Screenshot](./Screenshot/img22.jpg)
+![Phase 9 Screenshot](./Screenshot/img23.jpg)
+![Phase 9 Screenshot](./Screenshot/img25.jpg)
+![Phase 9 Screenshot](./Screenshot/img26.jpg)
+![Phase 9 Screenshot](./Screenshot/img27.jpg)
