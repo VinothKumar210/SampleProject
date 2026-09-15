@@ -155,3 +155,15 @@ ebase-demo and added multiple small, incremental commits.
 4. **Compare History:** Verified with git log --oneline that the multiple separate commits were successfully combined into a single, clean commit.
 
 ![Phase 2 Task 3 Screenshot](./Screenshot/img31.png)
+
+### Task 4: Practice git cherry-pick
+**Description:** This task involves selectively picking a specific commit from one branch and applying it to another branch.
+
+1. **Create Feature Branches:** Created eature-a and added two commits to it.
+2. **Identify Commit Hash:** Used git log --oneline to find the exact commit hash of the first commit.
+3. **Cherry-Pick to New Branch:** Created eature-b from main and ran git cherry-pick <hash> to bring only that specific commit over.
+
+**Why use \cherry-pick\ instead of \merge\?**
+When you use \git merge\, it merges *all* the commits from one branch into another. If a branch has multiple commits but you only want a specific hotfix or a single working feature from it (and not the rest of the incomplete code), \cherry-pick\ allows you to selectively grab just that one commit!
+
+![Phase 2 Task 4 Screenshot](./Screenshot/img32.png)
