@@ -25,3 +25,12 @@ This assignment covers fundamental Git operations including initialization, stag
 5.  **View History**: Verified the commit was successfully recorded using `git log`.
 
 ![Phase 2 Screenshot](./Screenshot/img2.jpg)
+
+### Phase 3: Branching Basics
+**Description:** This phase involves creating multiple branches, switching between them, and making independent changes to build out the calculator features.
+
+1.  **Feature 1 (Addition)**: Created branch `feature-1` (`git switch -c feature-1`) and implemented the addition function in `main.cpp`, then committed the change.
+2.  **Feature 2 (Subtraction)**: Switched back to `main`, created branch `feature-2`, implemented the subtraction function, and committed the change.
+3.  **Feature 3 (Multiplication)**: Switched back to `main`, created branch `feature-3`, implemented the multiplication function, and committed the change.
+
+![Phase 3 Screenshot](./Screenshot/img3.jpg)
