@@ -33,7 +33,7 @@ This assignment covers fundamental Git operations including initialization, stag
 2.  **Feature 2 (Subtraction)**: Switched back to `main`, created branch `feature-2`, implemented the subtraction function, and committed the change.
 3.  **Feature 3 (Multiplication)**: Switched back to `main`, created branch `feature-3`, implemented the multiplication function, and committed the change.
 
-![Phase 3 Screenshot](./Screenshot/img3.png)
+![Phase 3 Screenshot](./Screenshot/img3.jpg)
 ### Phase 4: Merging and Conflict Resolution
 **Description:** This phase involves merging branches into the main branch and resolving the resulting merge conflicts that arise when the same lines of code are modified in different branches.
 
