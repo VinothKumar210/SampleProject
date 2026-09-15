@@ -167,3 +167,12 @@ ebase-demo and added multiple small, incremental commits.
 When you use \git merge\, it merges *all* the commits from one branch into another. If a branch has multiple commits but you only want a specific hotfix or a single working feature from it (and not the rest of the incomplete code), \cherry-pick\ allows you to selectively grab just that one commit!
 
 ![Phase 2 Task 4 Screenshot](./Screenshot/img32.png)
+
+### Task 5: Repository Cleanup
+**Description:** This task involves removing unused experimental branches to keep the repository clean, creating a release tag, and syncing the final polished state to the remote repository.
+
+1. **Delete Branches:** Used git branch -D rebase-demo feature-a feature-b to delete the temporary branches created during Phase 2.
+2. **Release Tagging:** Created a new tag 2.0 using git tag v2.0 -m "Version 2.0 - Git Assignment Phase 2" to mark the completion of the advanced operations phase.
+3. **Push to Remote:** Pushed the clean main branch and the new tags to GitHub using git push origin main --tags.
+
+![Phase 2 Task 5 Screenshot](./Screenshot/img33.png)
