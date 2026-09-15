@@ -1,0 +1,12 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled executable files
+*.exe
+*.out
+*.app
+
+# OS generated files
+.DS_Store
+Thumbs.db
